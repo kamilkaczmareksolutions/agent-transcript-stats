@@ -1,0 +1,6 @@
+{"timestamp":"2026-03-01T15:00:00Z","type":"session_meta","payload":{"id":"sess-codex-1"}}
+{"timestamp":"2026-03-01T15:00:01Z","type":"event_msg","payload":{"type":"user_message","message":"eventmirrorword please"}}
+{"timestamp":"2026-03-01T15:00:01Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"Show session stats"}]}}
+{"timestamp":"2026-03-01T15:00:02Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"Working."}]}}
+{"timestamp":"2026-03-01T15:00:03Z","type":"response_item","payload":{"type":"function_call","name":"shell"}}
+{"timestamp":"2026-03-01T15:00:04Z","type":"response_item","payload":{"type":"custom_tool_call","name":"patch"}}

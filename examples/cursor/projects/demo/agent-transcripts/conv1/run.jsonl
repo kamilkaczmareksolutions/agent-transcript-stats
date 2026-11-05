@@ -1,0 +1,2 @@
+{"role":"user","message":{"content":[{"type":"text","text":"<timestamp>2026-03-03T08:00:00Z</timestamp>How many tool calls"}]}}
+{"role":"assistant","message":{"content":[{"type":"text","text":"Two."},{"type":"tool_use","name":"grep"}]}}

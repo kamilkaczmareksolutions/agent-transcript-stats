@@ -1,0 +1,8 @@
+{"type":"system","content":"ignore systemword"}
+{"type":"user","timestamp":"2026-03-01T10:00:00Z","message":{"role":"user","content":[{"type":"text","text":"Count the transcript words for the demo"},{"type":"tool_result","content":"toolresultword should vanish"}]}}
+{"type":"assistant","timestamp":"2026-03-01T10:01:00Z","message":{"role":"assistant","content":[{"type":"text","text":"I will count."},{"type":"tool_use","id":"t1","name":"Read"},{"type":"server_tool_use","id":"t1","name":"Read"}]}}
+{"type":"attachment","timestamp":"2026-03-01T10:02:00Z","attachment":{"type":"queued_command","prompt":"Also tally the transcript"}}
+{"type":"file-history-snapshot","text":"snapshotword"}
+   
+{not json
+{"role":"user","content":"legacy line with secret sk-abcdefghijklmnopqrstuvwxyz012345 and ada@example.com","timestamp":"2026-03-02T01:00:00Z"}
